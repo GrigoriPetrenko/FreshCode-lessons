@@ -1,0 +1,1000 @@
+  371  $?
+  372  echo $?
+  373  vi scrypt10.sh 
+  374  cd ..
+  375  gs
+  376  git status 
+  377  git add .
+  378  git status
+  379  git commit -a -m "s10"
+  380  git push -u origin master 
+  381  cd Bash/2019A/
+  382  ls
+  383  cp scrypt7.sh scrypt11.sh
+  384  vi scrypt11.sh 
+  385  ls
+  386  /mnt/c
+  387  history
+  388  cd /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/
+  389  ls
+  390  cd Bash/
+  391  ls
+  392  cd 2019A/
+  393  ls
+  394  vi scrypt7.sh 
+  395  cp -a /home/ /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/homecopy 2>errors.log
+  396  ls
+  397  cat errors.log 
+  398  cd homecopy/
+  399  ls
+  400  vi scrypt7.sh 
+  401  ls
+  402  ls -l
+  403  cd ..
+  404  ls
+  405  rmdir homecopy/ | rm errors.log 
+  406  rmdir -R homecopy/ | rm errors.log 
+  407  rmdir -r homecopy/ | rm errors.log 
+  408  sudo rmdir homecopy/ | rm errors.log 
+  409  ls -l
+  410  sudo rmdir homecopy/
+  411  rmdir --help
+  412  rmdir -v homecopy/
+  413  man rmdir 
+  414  rm -r homecopy/
+  415  ls -l
+  416  clear
+  417  vi scrypt7.sh 
+  418  ./scrypt7.sh /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/homecopy
+  419  vi scrypt7.sh
+  420  ./scrypt7.sh /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/homecopy
+  421  ls
+  422  vi scrypt7.sh
+  423  ./scrypt7.sh /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/homecopy
+  424  ls
+  425  vi scrypt7.sh
+  426  ./scrypt7.sh /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/homecopy
+  427  vi scrypt7.sh
+  428  ./scrypt7.sh /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/homecopy
+  429  ls
+  430  cd homecopy/
+  431  ls
+  432  cd ..
+  433  rm -r homecopy/
+  434  vi scrypt7.sh
+  435  ./scrypt7.sh /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/homecopy
+  436  ls
+  437  cat error_cp.log 
+  438  su uzykownik 
+  439  whoami
+  440  su uzykownik 
+  441  userdel uzykownik 
+  442  sudo userdel uzykownik 
+  443  ls 
+  444  rm -r homecopy/
+  445  ls
+  446  rm error_cp.log 
+  447  ls
+  448  useradd tester
+  449  whoami
+  450  su root
+  451  ./scrypt15.sh 
+  452  exit
+  453  ./scrypt15.sh 
+  454  exit
+  455  ./scrypt15.sh 
+  456  exit
+  457  ./scrypt15.sh 
+  458  :sh
+  459  exit
+  460  ./scrypt15.sh 
+  461  exit
+  462  ./scrypt15.sh 
+  463  exit
+  464  ./scrypt15.sh 
+  465  mkdir zad_16
+  466  exit
+  467  ./scrypt15.sh 
+  468  exit
+  469  ./scrypt15.sh 
+  470  exit
+  471  ./scrypt15.sh 
+  472  exit
+  473  ./scrypt15.sh 
+  474  exit
+  475  ./scrypt15.sh 
+  476  exit
+  477  ./scrypt15.sh 
+  478  exit
+  479  ./scrypt15.sh 
+  480  exit
+  481  ./scrypt15.sh 
+  482  exit
+  483  ./scrypt15.sh 
+  484  cd /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/
+  485  ls
+  486  ls -l
+  487  ./scrypt15.sh 
+  488  vi scrypt15.sh 
+  489  cd ..
+  490  cd A/
+  491  ls
+  492  ls -l
+  493  ./cw3.sh 
+  494  clear
+  495  cd ..
+  496  cd 2019A/
+  497  ls
+  498  vi scrypt15.sh 
+  499  find mass_uv_regr_csv.sh
+  500  grep mass_uv_regr_csv.sh
+  501  ls
+  502  cd /ls -al
+  503  ls -al
+  504  find . mass
+  505  pwd
+  506  cd ..
+  507  ls
+  508  find . mass
+  509  find . mass_uv_regr_csv.sh
+  510  find mass_uv_regr_csv.sh
+  511  find mass_uv_regr_csv.sh .
+  512  find /. mass_uv_regr_csv.sh .
+  513  man find
+  514  man --help
+  515  find -name mass_uv_regr_csv.sh .
+  516  find -name mass_uv_regr_csv.sh 
+  517  find -name setup.sh
+  518  sudo apt-get install tofrodos
+  519  sudo ln -s /usr/bin/fromdos /usr/bin/dos2unix 
+  520  cd /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A
+  521  ./scrypt15.sh 
+  522  exit
+  523  ./scrypt15.sh 
+  524  exit
+  525  ./scrypt15.sh 
+  526  exit
+  527  ./scrypt15.sh 
+  528  exit
+  529  ./scrypt15.sh 
+  530  exit
+  531  ./scrypt15.sh 
+  532  exit
+  533  ./scrypt15.sh 
+  534  exit
+  535  ./scrypt11.sh 
+  536  exit
+  537  ./scrypt11.sh 
+  538  exit
+  539  cd /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A
+  540  ./scrypt15.sh 
+  541  vi filename.sh
+  542  vi scrypt15.sh 
+  543  ./scrypt15.sh 
+  544  vi scrypt15.sh 
+  545  vi scrypt11.sh 
+  546  exit
+  547  ./scrypt11.sh 
+  548  ls -l
+  549  chmod 444 Students.txt 
+  550  chmod 444 co_codes.csv 
+  551  ls -l
+  552  exit
+  553  ls -l
+  554  ./scrypt11.sh 
+  555  exit
+  556  cd /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/
+  557  ls
+  558  vi scrypt11.sh 
+  559  find -name *.sh
+  560  find -name ^[a-z]+[0-1]/./sh
+  561  ./scrypt9.sh 
+  562  ./scrypt9.sh 2*6
+  563  exit
+  564  ./scrypt12.sh co_codes.csv 
+  565  wc -l co_codes.csv 
+  566  exit
+  567  wc -l co_codes.csv 
+  568  exit
+  569  wc -l co_codes.csv 
+  570  wc -l | cat co_codes.csv 
+  571  ls -l < co_codes.csv 
+  572  ls -l << co_codes.csv 
+  573  exit
+  574  ./scrypt12.sh co_codes.csv 
+  575  exit
+  576  ./scrypt12.sh co_codes.csv 
+  577  exit
+  578  ./scrypt12.sh co_codes.csv 
+  579  echo "co_codes.csv" | wc -l
+  580  exit
+  581  ./scrypt12.sh co_codes.csv 
+  582  wc -l co_codes.csv  | awk $1
+  583  wc -l co_codes.csv  | awk {print $1}
+  584  wc -l co_codes.csv  | awk `{print $1}`
+  585  wc -l co_codes.csv  | awk '{print $1}'
+  586  wc -l co_codes.csv  | awk "{print $1}"
+  587  exit
+  588  ./scrypt12.sh 
+  589  ./scrypt12.sh co_codes.csv 
+  590  exit
+  591  wc -l < co_codes.csv 
+  592  exit
+  593  ./scrypt12.sh co_codes.csv 
+  594  exit
+  595  ./scrypt12.sh co_codes.csv 12
+  596  ./scrypt12.sh co_codes.csv 300
+  597  exit
+  598  ./scrypt11.sh 
+  599  exit
+  600  ./scrypt11.sh 
+  601  exit
+  602  ./scrypt11.sh 
+  603  find -name "*.sh"
+  604  exit
+  605  ./scrypt11.sh 
+  606  exit
+  607  ./scrypt11.sh 
+  608  exit
+  609  ./scrypt11.sh 
+  610  exit
+  611  ./scrypt11.sh 
+  612  exit
+  613  ./scrypt11.sh 
+  614  ls
+  615  ls -l
+  616  chmod 444 scrypt9.sh 
+  617  ls -l
+  618  ./scrypt11.sh 
+  619  chmod 777 scrypt9.sh 
+  620  exit
+  621  ./scrypt13.sh mn 
+  622  ./scrypt13.sh Kv
+  623  exit
+  624  ./scrypt13.sh Kv
+  625  ./scrypt13.sh Kv bg
+  626  exit
+  627  ./cw10.sh 10
+  628  exit
+  629  ./cw10.sh 10
+  630  exit
+  631  ./cw10.sh 10
+  632  exit
+  633  ./cw10.sh 10
+  634  :w
+  635  exit
+  636  ./cw10.sh 10
+  637  exit
+  638  ./cw10.sh 10
+  639  exit
+  640  ./cw10.sh 10
+  641  exit
+  642  ./cw10.sh 10
+  643  exit
+  644  ./cw10.sh 10
+  645  exit
+  646  ./cw10.sh 10
+  647  exit
+  648  ./cw10.sh 
+  649  exit
+  650  ./cw10.sh 
+  651  exit
+  652  ./cw10.sh 
+  653  exit
+  654  ./cw10.sh 
+  655  exit
+  656  cd /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash
+  657  cd A/
+  658  ./cw10.sh 
+  659  ./cw10.sh 10
+  660  vi cw10.sh 
+  661  ./scrypt20.sh 12 gf 56 ero
+  662  exit
+  663  ./scrypt20.sh 12 gf 56 ero
+  664  exit
+  665  ./scrypt20.sh 12 gf 56 ero
+  666  exit
+  667  ./scrypt20.sh 12 gf 56 ero
+  668  ls -l
+  669  exit
+  670  ./scrypt20.sh 12 gf 56 ero
+  671  exit
+  672  ./scrypt20.sh 12 gf 56 ero
+  673  exit
+  674  ./scrypt20.sh 12 gf 56 ero
+  675  exit
+  676  ./scrypt20.sh 12 gf 56 ero
+  677  exit
+  678  ./scrypt20.sh 12 gf 56 ero
+  679  exit
+  680  ./scrypt20.sh 12 gf 56 ero
+  681  exit
+  682  ./scrypt20.sh 12 gf 56 ero
+  683  exit
+  684  ./scrypt20.sh 12 gf 56 ero
+  685  exit
+  686  man sort
+  687  exit
+  688  ./scrypt20.sh 12 gf 56 ero
+  689  exit
+  690  ./scrypt20.sh 12 gf 56 ero
+  691  exit
+  692  ./scrypt20.sh 12 gf 56 ero
+  693  exit
+  694  ./scrypt20.sh 12 gf 56 ero
+  695  exit
+  696  ./scrypt20.sh 12 gf 56 ero
+  697  ./scrypt20.sh 12 gf 56 ero ero ero
+  698  exit
+  699  ./scrypt20.sh 12 gf 56 ero ero ero
+  700  exit
+  701  ./scrypt20.sh 12 gf 56 ero ero ero
+  702  exit
+  703  ./scrypt20.sh 12 gf 56 ero ero ero
+  704  exit
+  705  ./scrypt20.sh 12 gf 56 ero ero ero
+  706  exit
+  707  ./scrypt20.sh 12 gf 56 ero ero ero
+  708  exit
+  709  ./scrypt20.sh 12 gf 56 ero ero ero
+  710  exit
+  711  ./scrypt20.sh 12 gf 56 ero ero ero
+  712  exit
+  713  ./scrypt20.sh 12 gf 56 ero ero ero
+  714  exit
+  715  ./scrypt20.sh 12 gf 56 ero ero ero
+  716  exit
+  717  ./scrypt20.sh 12 gf 56 ero ero ero
+  718  exit
+  719  ./scrypt20.sh 12 gf 56 ero ero ero
+  720  exit
+  721  ./scrypt20.sh 12 gf 56 ero ero ero
+  722  exit
+  723  ./scrypt20.sh 12 gf 56 ero ero ero
+  724  exit
+  725  ./scrypt20.sh 12 gf 56 ero ero ero
+  726  exit
+  727  ./scrypt20.sh 12 gf 56 ero ero ero
+  728  exit
+  729  ./scrypt20.sh 12 gf 56 ero ero ero
+  730  exit
+  731  ./scrypt20.sh 12 gf 56 ero ero ero
+  732  exit
+  733  ./scrypt20.sh 12 gf 56 ero ero ero
+  734  exit
+  735  ./scrypt20.sh 12 gf 56 ero ero ero
+  736  exit
+  737  ./scrypt20.sh 12 gf 56 ero ero ero
+  738  exit
+  739  ./scrypt20.sh 12 gf 56 ero ero ero
+  740  exit
+  741  ./scrypt20.sh 12 gf 56 ero ero ero
+  742  exit
+  743  ./scrypt20.sh 12 gf 56 ero ero ero
+  744  exit
+  745  ./scrypt20.sh 12 gf 56 ero ero ero
+  746  exit
+  747  ./scrypt20.sh 12 gf 56 ero ero ero
+  748  ./scrypt20.sh -12 gf 56 ero ero ero
+  749  exit
+  750  ./scrypt10.sh 
+  751  exit
+  752  ./scrypt10.sh 
+  753  exit
+  754  ./scrypt10.sh 
+  755  exit
+  756  ./scrypt10.sh 
+  757  exit
+  758  ./scrypt12.sh co_codes.csv 256 
+  759  exit
+  760  vi scrypt13.sh 
+  761  ./scrypt13.sh 
+  762  vi scrypt20.sh
+  763  ./scrypt20.sh 15 grt 74 frp hello
+  764  vi scrypt20.sh 
+  765  ./scrypt19.sh 
+  766  vi scrypt20.sh 
+  767  ./scrypt20.sh 15 fds 524
+  768  vi scrypt20.sh 
+  769  ./scrypt9copy.sh 
+  770  ./scrypt9copy.sh 2*4
+  771  ./scrypt9copy.sh 2*45/3
+  772  ./scrypt9copy.sh 5/3
+  773  ./scrypt9copy.sh 5+876
+  774  vi scrypt20.sh 
+  775  ./scrypt8.sh
+  776  ./scrypt8.sh2
+  777  ./scrypt8.sh 2 4
+  778  ./scrypt8.sh 4 8
+  779  ./scrypt10.sh 
+  780  vi scrypt10.sh 
+  781  ./scrypt11.sh 
+  782  vi scrypt11.sh 
+  783  ./scrypt12.sh 
+  784  ./scrypt12.sh 256
+  785  vi scrypt12.sh 
+  786  ./scrypt15.sh
+  787  vi scrypt15.sh 
+  788  ./scrypt15.sh
+  789  ./scrypt19.sh
+  790  cd /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/
+  791  vi scrypt9.sh 
+  792  ls
+  793  cp scrypt9.sh scrypt9copy.sh
+  794  vi scrypt9.sh 
+  795  ./scrypt9copy.sh 
+  796  ./scrypt9copy.sh 2*2
+  797  ./scrypt9copy.sh 22*2
+  798  ./scrypt9copy.sh 22/2
+  799  ./scrypt9copy.sh 22+2
+  800  ./scrypt9copy.sh -22+2
+  801  diff scrypt9.sh scrypt9copy.sh 
+  802  ./scrypt3.sh 
+  803  ды
+  804  ls
+  805  vi scrypt12.sh
+  806  ./scrypt12.sh co_codes.csv 
+  807  vi scrypt12.sh
+  808  ./scrypt10.sh co_codes.csv 
+  809  vi scrypt15.sh 
+  810  vi scrypt11.sh 
+  811  pwd
+  812  history
+  813  cd /mnt/c/Users/WorkPC/IdeaProjects/Shell_Bash/Bash/2019A/
+  814  ls -l
+  815  ls
+  816  pwd
+  817  ls
+  818  cd /mnt/
+  819  ls
+  820  cd /mnt/c/
+  821  ls
+  822  cd Users/
+  823  ls
+  824  cd WorkPC/Desktop/
+  825  mkdir once_again
+  826  ls
+  827  ls -l
+  828  cd once_again/
+  829  clear
+  830  cat /etc/passwd
+  831  cat /etc/passwd | head -1 naglowek.txt
+  832  toch naglowek.txt | cat /etc/passwd | head -1 naglowek.txt
+  833  touch naglowek.txt | cat /etc/passwd | head -1 naglowek.txt
+  834  ls
+  835  ls -l
+  836  cat /etc/passwd | head -1 naglowek.txt
+  837  cat /etc/passwd | head -1 >> naglowek.txt
+  838  cat /etc/passwd | head 1 >> naglowek.txt
+  839  man head
+  840  cat /etc/passwd | head 1 >> naglowek.txt
+  841  cat /etc/passwd | head -2 >> naglowek.txt
+  842  head -2 /etc/shadow
+  843  head -2 /etc/passwd
+  844  head /etc/passwd
+  845  cat /etc/passwd | head -2 > naglowek1.txt
+  846  cat /etc/passwd | sed -i 1d > naglowek1.txt
+  847  sed -i 1d /etc/passwd > naglowek1.txt
+  848  sed -i 1d /etc/passwd 
+  849  man sed
+  850  cat /etc/passwd > file.txt
+  851  sed -i 1d file.txt > naglowek_sed.txt 
+  852  sed -i -e 1d file
+  853  sed -i -e '1 w /etc/passwd' -e '1d' naglowek_sed.txt 
+  854  sed -i -e '/etc/passwd' -e '1d' naglowek_sed.txt 
+  855  sed  naglowek_sed.txt 
+  856  #sed -i -e '1 w /etc/passwd' -e '1d' naglowek_sed.txt  
+  857  #gdsgfdgfdgfd
+  858  ls -la 
+  859  whoami
+  860  chmod 000 file.txt 
+  861  ls -la 
+  862  chmod u-r file.txt 
+  863  ls -la 
+  864  su
+  865  ping 167.114.2.104
+  866  su
+  867  cat /etc/passwd
+  868  cat /etc/passwd > naglowek_full.txt
+  869  sed -n '1' naglowek_full.txt
+  870  sed -n '1d' naglowek_full.txt
+  871  cat /etc/passwd > naglowek_full.txt
+  872  sed -n '1p' naglowek_full.txt
+  873  sed -n '1p' | cat /etc/passwd
+  874  cat /etc/passwd > file.txt | sed -n '1p' file.txt
+  875  cat /etc/passwd > file.txt | sed -n '1p' file.txt | rm file.txt 
+  876  cat /etc/passwd > file.txt | sed -n '1p' file.txt 
+  877  cat /etc/passwd > file.txt | sed -n '1p' file.txt > naglowek.txt | rm file.txt | cat naglowek.txt 
+  878  cat /etc/passwd > file.txt | sed -n '1p' file.txt > naglowek.txt
+  879  cat /etc/passwd > file.txt | sed -n '1p' file.txt 
+  880  cat /etc/passwd > file.txt | sed -n '1p' file.txt > naglowek.txt
+  881  cat /etc/passwd > file.txt | sed -n '1p' file.txt > naglowek.txt | cat naglowek.txt 
+  882  cat /etc/passwd > file.txt | sed -n '1p' file.txt
+  883  sort -k UID << /etc/passwd
+  884  cat /etc/passwd > file.txt | sed -n '1p' file.txt
+  885  cat /etc/passwd > file.txt | sed -n '1p' file.txt | cat file.txt > naglowek.txt
+  886  cat /etc/passwd > file.txt | sed -n '1p' file.txt 
+  887  man sed
+  888  cat /etc/passwd > file.txt | sed -n -i '1p' file.txt > naglowek.txt 
+  889  cat /etc/passwd > naglowek.txt | sed -n -i '1p' naglowek.txt 
+  890  cat /etc/passwd > naglowek.txt | sed -n -i '1p' naglowek.txt | cat naglowek.txt 
+  891  cat naglowek.txt 
+  892  cat /etc/passwd > file.txt | sed -ni '1p' file.txt >> plik.txt | cat plik.txt
+  893  cat /etc/passwd > file.txt | sed -ni '1p' file.txt >> plik.txt 
+  894  ./factorial.sh 
+  895  exit
+  896  ./factorial.sh 
+  897  exit
+  898  ./factorial.sh 
+  899  exit
+  900  ./factorial.sh 
+  901  exit
+  902  ./factorial.sh 
+  903  exit
+  904  ./factorial.sh 
+  905  exit
+  906  ./skrypt_001.sh root
+  907  exit
+  908  ./skrypt_001.sh root
+  909  ls -l
+  910  exit
+  911  ./skrypt_001.sh
+  912  exit
+  913  ./skrypt_001.sh
+  914  whoami
+  915  exit
+  916  ./skrypt_001.sh
+  917  exit
+  918  ./skrypt_001.sh
+  919  exit
+  920  cd ..
+  921  tac Students.txt 
+  922  cat Students.txt 
+  923  cd skrypty/
+  924  exit
+  925  ./skrypt_002
+  926  ./skrypt_002.sh 
+  927  cd ..
+  928  ls
+  929  cd skrypty/
+  930  exit
+  931  ./skrypt_002.sh 
+  932  exit
+  933  ./skrypt_002.sh 
+  934  exit
+  935  ./skrypt_002.sh 
+  936  exit
+  937  ./skrypt_002.sh 
+  938  exit
+  939  ./skrypt_002.sh 
+  940  exit
+  941  ./skrypt_001.sh
+  942  cp skrypt_001.sh skrypt_002.sh 
+  943  vi skrypt_002
+  944  vi skrypt_002.sh 
+  945  cp skrypt_001.sh skrypt_003.sh
+  946  exit
+  947  ./skrypt_003.sh 
+  948  exit
+  949  ./skrypt_003.sh 
+  950  exit
+  951  ./skrypt_002.sh 
+  952  exit
+  953  ./skrypt_002.sh 
+  954  exit
+  955  ./skrypt_002.sh 
+  956  exit
+  957  ./skrypt_002.sh 
+  958  exit
+  959  ./skrypt_002.sh 
+  960  exit
+  961  ./skrypt_002.sh 
+  962  exit
+  963  ./skrypt_004.sh 
+  964  ./skrypt_002.sh 1 2 3 3
+  965  ./skrypt_004.sh 1 2 3 4
+  966  exit
+  967  ./skrypt_004.sh 1 2 3 4
+  968  exit
+  969  ./skrypt_004.sh 1 2 3 4
+  970  exit
+  971  ./skrypt_004.sh 1 2 3 4
+  972  cp skrypt_004.sh skrypt_005.sh
+  973  exit
+  974  ./skrypt_005.sh 
+  975  exit
+  976  ./skrypt_005.sh 
+  977  exit
+  978  ./skrypt_006.sh Dupa 
+  979  ls -l
+  980  ./skrypt_006.sh Dupa 
+  981  exit
+  982  ./skrypt_007.sh 
+  983  ./skrypt_007.sh Dupa
+  984  ls
+  985  ls Dupa/
+  986  ls -al Dupa/
+  987  exit
+  988  ./skrypt_008.sh 
+  989  exit
+  990  ./skrypt_008.sh 
+  991  ./skrypt_008.sh a 3
+  992  exit
+  993  ./skrypt_008.sh a 3
+  994  ./skrypt_008.sh 3 a
+  995  ./skrypt_008.sh 3a 3
+  996  ./skrypt_008.sh 3 3
+  997  exit
+  998  ./skrypt_008.sh 3 3
+  999  exit
+ 1000  ./skrypt_010.sh 3 3
+ 1001  exit
+ 1002  ./skrypt_010.sh 3 3
+ 1003  exit
+ 1004  man rn
+ 1005  ls
+ 1006  vi plik
+ 1007  find /home -user grigory
+ 1008  vi /home/grigory/.bashrc
+ 1009  ps -ef
+ 1010  pstree
+ 1011  date
+ 1012  date | awk -F "{print $4}"
+ 1013  date | awk -F '{print $4}'
+ 1014  awk -F '{print $4}' date
+ 1015  awk -F '{print $4}' | date
+ 1016  awk -F: '{print $4}' | date
+ 1017  ./skrypt_010.sh 3 3
+ 1018  SELECT
+ 1019  EMPLOYEE_ID
+ 1020  FROM
+ 1021  HR.EMPLOYEES
+ 1022  WHERE SALARY > (SELECT AVG(SALARY) FROM HR.EMPLOYEES)
+ 1023  find -name "skrypt"
+ 1024  find -name "skrypt*"
+ 1025  find -name "skrypt*" | grep -i 001
+ 1026  find -name "skrypt*" | grep -vi 001
+ 1027  find -name "skrypt*" | grep 001
+ 1028  find /etc/ -name "shadow" 
+ 1029  cat /etc/shadow
+ 1030  sudo cat /etc/shadow
+ 1031  users
+ 1032  id
+ 1033  ls
+ 1034  ls -l
+ 1035  chmod 1777 skrypt_001.sh 
+ 1036  ls -l
+ 1037  su
+ 1038  ./skrypt_008.sh 3 3
+ 1039  cp skrypt_008.sh skrypt_009.sh
+ 1040  vi skrypt_009.sh 
+ 1041  cp skrypt_009.sh skrypt_010.sh
+ 1042  rm skrypt_009.sh 
+ 1043  vi skrypt_010.sh 
+ 1044  ./skrypt_007.sh Folder
+ 1045  ls -al 
+ 1046  cp skrypt_007.sh skrypt_008.sh
+ 1047  vi skrypt_008.sh 
+ 1048  ./skrypt_002.sh 
+ 1049  ./skrypt_003.sh 
+ 1050  cp skrypt_003.sh skrypt_004.sh
+ 1051  vi skrypt_004.sh 
+ 1052  vi skrypt_005
+ 1053  vi skrypt_005.sh 
+ 1054  cp skrypt_005.sh skrypt_006.sh
+ 1055  vi skrypt_006.sh 
+ 1056  cp skrypt_006.sh skrypt_007.sh
+ 1057  vi skrypt_006.sh 
+ 1058  vi skrypt_007.sh 
+ 1059  ls -al
+ 1060  cd /usr/
+ 1061  ls
+ 1062  cd ..
+ 1063  ls
+ 1064  cd mnt/c/
+ 1065  ls
+ 1066  cd Users/WorkPC/Desktop/once_again/
+ 1067  ls
+ 1068  history
+ 1069  cat /etc/passwd | sort -nt "+2"
+ 1070  cat /etc/passwd | sort -n -t "+2"
+ 1071  cat /etc/passwd | sort -n -t +2
+ 1072  cat /etc/passwd | sort -n -t: +2
+ 1073  cat /etc/passwd | sort -n -t: +2 > sort_uid.txt
+ 1074  cat /etc/passwd > uid.txt
+ 1075  diff sort_uid.txt uid.txt 
+ 1076  sed -n '1p;$p' < sort_uid.txt 
+ 1077  vi factorial.sh
+ 1078  echo "This is a test " | sed 's/test/another_text/'
+ 1079  sed 's/|/^/' Students.txt 
+ 1080  sed 's/|/^/g' Students.txt 
+ 1081  sed 's/|/^/g' Students.txt > NewStudents
+ 1082  cat NewStudents 
+ 1083  sed 's/^/*/g' NewStudents > Students*.txt 
+ 1084  cat Students*.txt 
+ 1085  sed 's/^/*/g' NewStudents > Students*.txt 
+ 1086  cat Students*.txt 
+ 1087  sed 's/^/*/g' NewStudents 
+ 1088  sed 's/^/*/' NewStudents 
+ 1089  sed 's/^/*/g' NewStudents 
+ 1090  sed 's/^/|/g' NewStudents 
+ 1091  sed -n 's/^/|/g' NewStudents 
+ 1092  sed 's/^/|/g' NewStudents 
+ 1093  sed 's/^//g' NewStudents 
+ 1094  clear
+ 1095  cat Students.txt 
+ 1096  sed 's/|/*/g' Students.txt 
+ 1097  cat Students.txt 
+ 1098  sed 's/|/*/w Students*.txt' Students.txt 
+ 1099  cat Students*.txt 
+ 1100  cat Students.txt 
+ 1101  echo "Another test" | sed 'i\First test '
+ 1102  sed '=' Students.txt 
+ 1103  sed '/|/=' Students.txt 
+ 1104  sed -n '/|/=' Students.txt 
+ 1105  find bashrc
+ 1106  find -g bashrc
+ 1107  gs
+ 1108  awk '{Welcome to awk tutorial}'
+ 1109  awk '{print "Welcome to awk tutorial"}'
+ 1110  awk '{print $0}' Students.txt 
+ 1111  awk '{print !$1}' Students.txt 
+ 1112  awk '{print $1}' Students.txt 
+ 1113  awk '{print $2}' Students.txt 
+ 1114  awk '{print $2}' /etc/passwd
+ 1115  awk '{print $1}' /etc/passwd
+ 1116  awk -F '{print $1}' /etc/passwd
+ 1117  awk -F: '{print $1}' /etc/passwd
+ 1118  awk -Fx '{print $1}' /etc/passwd
+ 1119  echo "hello i am a sed comand" | awk '{$5="awk"; print $0}'
+ 1120  awk -F: '{print $1 "has a hom directory at" $6}' /etc/passwd
+ 1121  awk -F: '{print $1 "has a hom directory at: " $6}' /etc/passwd
+ 1122  awk -F: '{print "--" $1 "--" "has a hom directory at: " $6}' /etc/passwd
+ 1123  awk -F: '{print "User --" $1 "--" "has a hom directory at: " $6}' /etc/passwd
+ 1124  awk -F: 'BEGIN{print "All users and their home directories"}{print "User --" $1 "--" "has a hom directory at: " $6}' /etc/passwd
+ 1125  awk -F: 'BEGIN{print "All users and their home directories"}{print "User --" $1 "--" "has a hom directory at: " $6}END{"The end of list"}' /etc/passwd
+ 1126  awk -F: 'BEGIN {print "All users and their home directories"}{print "User --" $1 "--" "has a hom directory at: " $6}END {"The end of list"}' /etc/passwd
+ 1127  awk -F: 'BEGIN {print "All users and their home directories"}{print "User --" $1 "--" "has a hom directory at: " $6}END {print "The end of list"}' /etc/passwd
+ 1128  $ awk 'BEGIN{FS=":"; OFS="-"} {print $1,$6,$7}' /etc/passwd
+ 1129  $ awk 'BEGIN {FS=":"; OFS="-"}{print $1,$6,$7}' /etc/passwd
+ 1130  $ awk '{print $1,$6,$7}' /etc/passwd
+ 1131  $ awk -F: '{print $1,$6,$7}' /etc/passwd
+ 1132  awk -F: 'BEGIN {print "All users and their home directories"}{print "User --" $1 "--" "has a hom directory at: " $6}END {print "The end of list"}' /etc/passwd
+ 1133  $ awk '{print $1,$6,$7}' /etc/passwd
+ 1134  $ awk -F: '{print $1,$6,$7}' /etc/passwd
+ 1135  $ awk -F: '{print $1,$6}' /etc/passwd
+ 1136  $ awk -F: '{print $1}' /etc/passwd
+ 1137  awk 'BEGIN {FS=":"}{print "User --" $1 "--" "has a hom directory at: " $6}' /etc/passwd
+ 1138  awk 'BEGIN {FS=":"; OFS=";"}{print "User --" $1 "--" "has a hom directory at: " $6}' /etc/passwd
+ 1139  awk 'BEGIN {FS=":"; OFS=";"}{print $1,$6}' /etc/passwd
+ 1140  awk 'BEGIN {FS=":"; OFS=";"}{print $1,$6,$7}' /etc/passwd
+ 1141  vi adreses
+ 1142  awk 'BEGIN {FS="\n"; RS=""}{$1,$3}' adreses 
+ 1143  awk 'BEGIN {FS="\n"; RS=""}{print $1,$3}' adreses 
+ 1144  awk 'BEGIN {FS=""; RS=""}{print $1,$3}' adreses 
+ 1145  awk 'BEGIN {FS=" "; RS=""}{print $1,$3}' adreses 
+ 1146  awk 'BEGIN {FS="("; RS=""}{print $1,$3}' adreses 
+ 1147  ls
+ 1148  mkdir skrypty
+ 1149  cd skrypty/
+ 1150  vi skrypt_001.sh
+ 1151  vi skrypt_003.sh 
+ 1152  vi skrypt_002.sh
+ 1153  vi skrypt_003.sh 
+ 1154  cd /mnt/c/Users/WorkPC/Desktop/once_again/
+ 1155  cd skrypty/
+ 1156  vi skrypt_020.sh
+ 1157  cd /mnt/c/Users/WorkPC/Desktop/once_again/
+ 1158  ls
+ 1159  cd skrypty/
+ 1160  ls
+ 1161  cat skrypt_001
+ 1162  cat skrypt_001.sh 
+ 1163  cat skrypt_002.sh 
+ 1164  cat skrypt_003.sh 
+ 1165  cat skrypt_004.sh 
+ 1166  cat skrypt_005.sh 
+ 1167  cat skrypt_006.sh 
+ 1168  cat skrypt_007.sh 
+ 1169  cat skrypt_008.sh 
+ 1170  cat skrypt_010.sh 
+ 1171  . code
+ 1172  git add .
+ 1173  git status
+ 1174  git checkout -b
+ 1175  git checkout -b front-dev
+ 1176  git status
+ 1177  git diff Startup.cs
+ 1178  git add .
+ 1179  git commit -m "test_front"
+ 1180  git push -u front-dev
+ 1181  git push front-dev
+ 1182  git push 
+ 1183  git push --set-upstream  origin front-dev 
+ 1184  top
+ 1185  pwd
+ 1186  tasklist
+ 1187  atop
+ 1188  htop
+ 1189  pgrep
+ 1190  netstat
+ 1191  netstat -a | less
+ 1192  ls -la
+ 1193  cd 
+ 1194  cd /c/
+ 1195  ls
+ 1196  ls -la
+ 1197  cd
+ 1198  cd /mnt/
+ 1199  ls
+ 1200  cd c/
+ 1201  ls
+ 1202  cd /Users
+ 1203  cd Users/WorkPC/VscProjects/
+ 1204  ls
+ 1205  cd Shell-Bash/
+ 1206  ls
+ 1207  cd HackerRank_Linux/
+ 1208  ./008_Compute_the_Average.sh 
+ 1209  ./007_Arithmetic_Operations.sh 
+ 1210  id
+ 1211  last
+ 1212  last Natalia
+ 1213  cat /var/log/messages 
+ 1214  cat ~/var/log/messages 
+ 1215  tree
+ 1216  sudo apt install tree
+ 1217  tree
+ 1218  sudo apt install tree
+ 1219  tree
+ 1220  pwd
+ 1221  pwd = $zmienna | echo $zmienna
+ 1222  mandb
+ 1223  link -s link pwd
+ 1224  ln -s link pwd
+ 1225  ls -la
+ 1226  ln -s test softlink
+ 1227  ls -la
+ 1228  man ln
+ 1229  ln -s ~/ softlink
+ 1230  ln -s ~ softlink
+ 1231  rm softlink 
+ 1232  rm pwd
+ 1233  ls -la
+ 1234  ls |wc -l
+ 1235  ls -l |wc -l
+ 1236  ls -l
+ 1237  cd /c/
+ 1238  ls
+ 1239  ls -la
+ 1240  cd
+ 1241  ls /etc/ && echo === done ===
+ 1242  ls /etc/ || echo === done ===
+ 1243  ls /etc1 || echo === done ===
+ 1244  ls
+ 1245  ls -la
+ 1246  less .bashrc 
+ 1247  clear
+ 1248  ls
+ 1249  ln /mnt/c/Users/WorkPC/VscProjects/Shell-Bash shell_bash
+ 1250  ls
+ 1251  ls -la
+ 1252  ln -s /mnt/c/Users/WorkPC/VscProjects/Shell-Bash shell_bash
+ 1253  ls -la
+ 1254  cd shell_bash
+ 1255  ls
+ 1256  ls -li
+ 1257  cd
+ 1258  ls -li
+ 1259  touch file.txt
+ 1260  cp file.txt copy.txt
+ 1261  ln file.txt h_link.txt
+ 1262  ln -s file.txt s_link.txt
+ 1263  ls -li
+ 1264  man crontab 
+ 1265  help read
+ 1266  cut man
+ 1267  man cut
+ 1268  git clone https://github.com/palahsu/DDoS-Ripper
+ 1269  python3 DRipper.py
+ 1270  cd DDoS-Ripper/
+ 1271  ls -la
+ 1272  python3
+ 1273  exit
+ 1274  fresh
+ 1275  ~/.bashrc
+ 1276  sudo ~/.bashrc
+ 1277  whoami
+ 1278  .~/.bashrc
+ 1279  ls -la
+ 1280  vi .bashrc
+ 1281  fresh
+ 1282  vi .bashrc
+ 1283  fresh
+ 1284  vi .bashrc
+ 1285  fresh
+ 1286  vi .bashrc
+ 1287  fresh
+ 1288  vi .bashrc
+ 1289  pwd
+ 1290  histry
+ 1291  history
+ 1292  cd /mnt/c/Users/WorkPC
+ 1293  ls
+ 1294  cd Desktop/
+ 1295  ls
+ 1296  mkdir FreshCode_lessons2
+ 1297  cd FreshCode_lessons2/
+ 1298  ls -la
+ 1299  cd ..
+ 1300  cp FreshCode_lessons2/ FreshCode_lessons
+ 1301  cp -r FreshCode_lessons2/ FreshCode_lessons
+ 1302  cd FreshCode_lessons
+ 1303  mkdir l1
+ 1304  mkdir l2
+ 1305  tree
+ 1306  ls -R
+ 1307  history
+ 1308  fresh
+ 1309  ls-la
+ 1310  ls -la
+ 1311  man tree
+ 1312  sudo apt-get install tree
+ 1313  tree
+ 1314  fresh
+ 1315  tree
+ 1316  sudo apt install tree
+ 1317  tree
+ 1318  sudo apt install tree
+ 1319  fresh
+ 1320  ls -R
+ 1321  mkdir l1/pe2022-projects
+ 1322  mkdir l1\pe2022-projects
+ 1323  ls -R
+ 1324  mkdir l1\pe2022-projects\front
+ 1325  mkdir l1\pe2022-projects\back
+ 1326  mkdir l1\pe2022-projects\fullstack
+ 1327  ls -R
+ 1328  ls -la
+ 1329  mkdir l1/pe2022-projects
+ 1330  cd l1
+ 1331  cd /l1
+ 1332  cd \l1
+ 1333* 
+ 1334  mkdir pe2022-projects
+ 1335  mkdir pe2022-projects\fullstack
+ 1336  ls -la
+ 1337  rmdir pe2022-projectsfullstack/
+ 1338  ls -la
+ 1339  mkdir pe2022-projects/front
+ 1340  ls -la
+ 1341  mkdir pe2022-projects/back
+ 1342  mkdir pe2022-projects/fullstack
+ 1343  ls -la
+ 1344  cd pe2022-projects/
+ 1345  ls-la
+ 1346  ls -la
+ 1347  touch front/html-css.txt
+ 1348  touch front/js-react.txt
+ 1349  mkdir front/project1
+ 1350  ls -la
+ 1351  echo Hello
+ 1352  echo I want to be a Full-stack developer.>fullstack/info.txt
+ 1353  cat fullstack/info.txt
+ 1354  echo I will a Full-stack developer. It will be interesting.>>fullstack/info.txt
+ 1355  cat fullstack/info.txt
+ 1356  touch back/node.txt
+ 1357  touch back/db.txt
+ 1358  touch back/else.txt
+ 1359  mkdir back/project1
+ 1360  rm back/else.txt
+ 1361  rm back/project1
+ 1362  rm -R back/project1
+ 1363  cp fullstack/info.txt fullstack/information.txt
+ 1364  mv fullstack/information.txt /
+ 1365  mv fullstack/information.txt 
+ 1366  mv fullstack/information.txt ./
+ 1367  ls -la
+ 1368  cp information.txt fullstack/
+ 1369  ls -R
+ 1370  history>history.txt

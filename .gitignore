@@ -1,0 +1,8 @@
+#comment
+ignored_file.txt
+#VSCode config files
+.vscode/
+# Hiden files
+.*
+#Exceptions
+!.gitignore
