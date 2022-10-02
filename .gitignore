@@ -6,3 +6,5 @@ ignored_file.txt
 .*
 #Exceptions
 !.gitignore
+#folders
+coverege/

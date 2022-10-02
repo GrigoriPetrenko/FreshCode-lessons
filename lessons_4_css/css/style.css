@@ -1,0 +1,55 @@
+/* Rules:
+selector{
+    property:value;
+}
+*/
+h1 {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+h2 {
+  color: green;
+  font-size: 18px;
+  text-align: center;
+}
+p {
+  font-size: 14px;
+  color: yellow;
+  text-align: right;
+}
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.abstract {
+  color: grey;
+}
+#top-news {
+  color: brown;
+}
+body {
+  min-height: 100vh;
+  background: url(https://images.pexels.com/photos/34490/keyboard-computer-keys-white.jpg?auto=compress&cs=tinysrgb&w=1600);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.menuItems {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.menuItem {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 15px;
+  margin: 10px;
+  background-color: bisque;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}

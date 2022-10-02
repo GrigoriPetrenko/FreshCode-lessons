@@ -1,1 +1,4 @@
 # FreshCode tutorials
+
+Exstentions:
+Prettier;
