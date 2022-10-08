@@ -1,0 +1,63 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
+html {
+  font-size: 20px;
+}
+h2.modified {
+  font-size: 1.2rem;
+}
+p.modified {
+  font-size: 0.8rem;
+  font-family: "Montserrat", "Courier New", Courier, monospace;
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: condensed;
+  white-space: pre;
+
+  text-orientation: upright;
+  writing-mode: horizontal-tb;
+}
+button {
+  text-transform: uppercase;
+  width: 20%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+h2 {
+  text-shadow: red 0 0 2px;
+}
+
+.table-cell {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+} */
+
+/* Комбінатри:
+- для потомків:
+> прямих
+" " - усі
+- для наступних сусідніх: 
++ наступних
+~ усі наступні
+*/
+
+body > article {
+  border: 1px solid red;
+}
+body * {
+  border: 1px solid green;
+}
+h2 + p {
+  font-style: italic;
+  font-weight: bold;
+}
+article + article {
+  margin-top: 5px;
+}
+
+p ~ p {
+  color: rgb(241, 27, 12);
+}

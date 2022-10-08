@@ -2,3 +2,4 @@
 
 Exstentions:
 Prettier;
+ctrl+/
