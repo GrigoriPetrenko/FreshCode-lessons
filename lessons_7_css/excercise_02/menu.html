@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      :root {
+        font-family: sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .logoContainer {
+        margin-left: auto;
+      }
+
+      .logo {
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        padding: 20px;
+
+        background-color: black;
+
+        color: white;
+      }
+
+      header > * {
+        flex-grow: 0.5;
+      }
+
+      .navMenu {
+        text-align: right;
+      }
+
+      .menu {
+        display: inline-block;
+        white-space: nowrap;
+      }
+
+      .menuItems {
+        display: inline-block;
+
+        margin-left: 10px;
+      }
+
+      .menuItems > a {
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logoContainer">
+        <img
+          src="https://images.pexels.com/photos/1337386/pexels-photo-1337386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="logo"
+          class="logo"
+        />
+      </div>
+      <nav class="navMenu">
+        <ul class="menu">
+          <li class="menuItems"><a href="#">Home</a></li>
+          <li class="menuItems"><a href="#">About</a></li>
+          <li class="menuItems"><a href="#">Other</a></li>
+          <li class="menuItems"><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

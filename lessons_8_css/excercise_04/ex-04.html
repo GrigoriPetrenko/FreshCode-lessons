@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      article {
+        margin: 20px;
+        width: 300px;
+        padding: 30px;
+        border-radius: 5px;
+        background: linear-gradient(to bottom right, #19f2f4, #0adcc9);
+        color: bisque;
+        position: relative;
+      }
+      .orderNumbers {
+        margin-bottom: 50px;
+        font-size: 26px;
+        font-weight: bold;
+      }
+      .flexContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .circle1,
+      .circle2 {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        border-radius: 50%;
+        opacity: 0.3;
+      }
+      .circle1 {
+        top: 30px;
+        left: 210px;
+      }
+      .circle2 {
+        top: 130px;
+        left: 160px;
+      }
+    </style>
+    <title>ex-04</title>
+  </head>
+  <body>
+    <article>
+      <div class="flexContainer">
+        <h3>Weecly order</h3>
+        <i class="far fa-bookmark"></i>
+      </div>
+      <div class="orderNumbers">45,560</div>
+      <div>Described by 10%</div>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </article>
+  </body>
+</html>
