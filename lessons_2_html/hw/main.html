@@ -19,19 +19,9 @@
   - не вистачає заголовків рівня 2, можливо доцільно підняти рівні заголовків 3 (і нижче) на одиницю. -->
   <body>
     <header>
-      <table>
-        <tr>
-          <td>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </td>
-          <td>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </td>
-          <td><h6>Place and date</h6></td>
-        </tr>
-      </table>
+      <p class="placeDate">Place and date</p>
     </header>
-    <article>
+    <section>
       <table>
         <tr>
           <td>
@@ -43,14 +33,9 @@
             >
           </td>
           <td>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </td>
-          <td>
-            +38 (0XX) XXX XX XX
+            <a href="tel:+38(0XX)XXXXXXX">+38 (0XX) XXX XX XX</a>
             <br />
-            <a href="https://www.linkedin.com/" target="_blank"
-              >correct.email@gmail.com</a
-            >
+            <a href="mailto:nowhere@mozilla.org">correct.email@gmail.com</a>
             <br />
             <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
             <br />
@@ -58,16 +43,40 @@
           </td>
         </tr>
       </table>
-    </article>
-    <article>
+    </section>
+    <section>
       <table>
         <tr>
-          <td><h3>Experience:</h3></td>
           <td>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h2>Experience:</h2>
+            <p class="headerClass">Last work experience</p>
+            <p class="workPeriodClass">Work period</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate aliquam expedita assumenda saepe ad voluptate deserunt
+              eveniet quod culpa minus quam aut commodi totam, consectetur
+              consequuntur consequatur modi laboriosam autem.
+            </p>
+            <p class="headerClass">Before the last work experience</p>
+            <p class="workPeriodClass">Work period</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate aliquam expedita assumenda saepe ad voluptate deserunt
+              eveniet quod culpa minus quam aut commodi totam, consectetur
+              consequuntur consequatur modi laboriosam autem.
+            </p>
+            <p class="headerClass">One more work experience</p>
+            <p class="workPeriodClass">Work period</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate aliquam expedita assumenda saepe ad voluptate deserunt
+              eveniet quod culpa minus quam aut commodi totam, consectetur
+              consequuntur consequatur modi laboriosam autem.
+            </p>
           </td>
+
           <td>
-            <h2>Skills needed by the employer:</h2>
+            <p class="headerClass">Skills needed by the employer:</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
               ab! Maiores laborum dolores optio voluptatum magni? Quo obcaecati,
@@ -77,7 +86,7 @@
               nam porro nihil provident? Consequuntur, distinctio magni.
             </p>
             <br />
-            <h2>Other Skills:</h2>
+            <p class="headerClass">Other Skills:</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
               ab! Maiores laborum dolores optio voluptatum magni? Quo obcaecati,
@@ -86,56 +95,17 @@
               explicabo quod necessitatibus nemo, error omnis sed nobis delectus
               nam porro nihil provident? Consequuntur, distinctio magni.
             </p>
-          </td>
-        </tr>
-      </table>
-    </article>
-    <article>
-      <table>
-        <tr>
-          <td>
-            <h3>Last work experience</h3>
-            <h4>Work period</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate aliquam expedita assumenda saepe ad voluptate deserunt
-              eveniet quod culpa minus quam aut commodi totam, consectetur
-              consequuntur consequatur modi laboriosam autem.
-            </p>
-            <h3>Before the last work experience</h3>
-            <h4>Work period</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate aliquam expedita assumenda saepe ad voluptate deserunt
-              eveniet quod culpa minus quam aut commodi totam, consectetur
-              consequuntur consequatur modi laboriosam autem.
-            </p>
-            <h3>One more work experience</h3>
-            <h4>Work period</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate aliquam expedita assumenda saepe ad voluptate deserunt
-              eveniet quod culpa minus quam aut commodi totam, consectetur
-              consequuntur consequatur modi laboriosam autem.
-            </p>
-          </td>
-          <td>
-            <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-          </td>
-          <td>
-            <h3>Projects:</h3>
-            <h4>Name of project</h4>
-            <p>Technologies: Java, miven, spring, jsp.</p>
+            <p class="headerClass">Projects:</p>
+            <p class="projectClass">Name of project</p>
+            <p class="technoClass">Technologies: Java, miven, spring, jsp.</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               enim aliquam temporibus officiis voluptas dolorem autem commodi
               natus ducimus quaerat dignissimos, cupiditate ipsam consequuntur
               modi soluta reiciendis. Aliquid, harum molestiae.
             </p>
-            <h4>Name of project</h4>
-            <p>Technologies: Node JS, REACT, RxJS.</p>
+            <p class="projectClass">Name of project</p>
+            <p class="technoClass">Technologies: Node JS, REACT, RxJS.</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               enim aliquam temporibus officiis voluptas dolorem autem commodi
@@ -145,33 +115,29 @@
           </td>
         </tr>
       </table>
-    </article>
-    <article>
+    </section>
+    <section>
       <table>
         <tr>
           <td>
-            <h3>Education, speciality</h3>
-            <h4>Education period</h4>
-            <h3>Freshcode courses, speciality</h3>
-            <h4>Education period</h4>
-            <h3>Other courses, speciality</h3>
-            <h4>Education period</h4>
+            <h2>Education:</h2>
+            <p class="headerClass">Education, speciality</p>
+            <p>Education period</p>
+            <p class="headerClass">Freshcode courses, speciality</p>
+            <p>Education period</p>
+            <p class="headerClass">Other courses, speciality</p>
+            <p>Education period</p>
           </td>
           <td>
-            <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-          </td>
-          <td>
-            <h5>Languages:</h5>
+            <h2>Languages:</h2>
             <p>English - intermediate;</p>
             <p>Ukrainian - fluent.</p>
           </td>
         </tr>
       </table>
-    </article>
+    </section>
     <footer>
-      <p>
+      <p class="footerClass">
         Permission to process personal data: Footer Lorem ipsum, dolor sit amet
         consectetur adipisicing elit. Dolorem explicabo temporibus qui adipisci
         repellendus quae, officiis quibusdam, commodi quia ab id nam, neque vel
