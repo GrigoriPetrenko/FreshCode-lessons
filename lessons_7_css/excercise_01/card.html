@@ -11,17 +11,27 @@
       crossorigin="anonymous"
     ></script>
     <style>
+      :root {
+        --card-width: 300px;
+        /* --my-variable: white; */
+      }
       * {
         list-style: none;
         box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-wrap: wrap;
       }
 
       .userCard {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        width: 300px;
+        min-width: 200px;
+        max-width: 400px;
+        flex: 1 1 auto;
+        width: var(--card-width);
         border: 1px solid red;
         border-radius: 30px;
         overflow: hidden;
@@ -38,9 +48,9 @@
       }
 
       .userPhoto {
-        width: 150px;
-        height: 150px;
-        margin-top: -75px;
+        width: calc(var(--card-width) / 2);
+        height: calc(var(--card-width) / 2);
+        margin-top: calc(var(--card-width) / -4);
         object-fit: cover;
         border-radius: 50%;
         border: 2px solid white;
@@ -61,6 +71,7 @@
       .socials {
         display: flex;
         padding: 10px;
+        margin-top: auto;
       }
 
       .socialsItem {
@@ -92,6 +103,83 @@
     <title>Flex Card</title>
   </head>
   <body>
+    <article class="userCard">
+      <header class="userCardHeader"></header>
+      <img
+        class="userPhoto"
+        src="https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Adam Jordan"
+      />
+      <h3 class="userName">Adam Jordan</h3>
+      <p class="userTagLink">@adamjordan</p>
+      <p class="userInfo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus
+        laudantium iste libero aut animi!
+      </p>
+      <ul class="socials">
+        <li class="socialsItem facebook">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="socialsItem twitter">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="socialsItem linkedIn">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </article>
+    <article class="userCard">
+      <header class="userCardHeader"></header>
+      <img
+        class="userPhoto"
+        src="https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Adam Jordan"
+      />
+      <h3 class="userName">Adam Jordan</h3>
+      <p class="userTagLink">@adamjordan</p>
+      <p class="userInfo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+        doloremque omnis dignissimos perferendis beatae tempora at delectus
+        rerum. Corrupti beatae non incidunt tempore dignissimos recusandae, illo
+        laudantium facere minus eaque.
+      </p>
+      <ul class="socials">
+        <li class="socialsItem facebook">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="socialsItem twitter">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="socialsItem linkedIn">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </article>
+    <article class="userCard">
+      <header class="userCardHeader"></header>
+      <img
+        class="userPhoto"
+        src="https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Adam Jordan"
+      />
+      <h3 class="userName">Adam Jordan</h3>
+      <p class="userTagLink">@adamjordan</p>
+      <p class="userInfo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus
+        laudantium iste libero aut animi!
+      </p>
+      <ul class="socials">
+        <li class="socialsItem facebook">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="socialsItem twitter">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="socialsItem linkedIn">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </article>
     <article class="userCard">
       <header class="userCardHeader"></header>
       <img
