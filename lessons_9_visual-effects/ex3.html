@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/reset.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      ul {
+        font-size: 0;
+        margin: 20px;
+        white-space: nowrap;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        padding: 10px 20px;
+        /* background-color: burlywood; */
+        font-size: 16px;
+        position: relative;
+      }
+      li {
+        display: inline-block;
+      }
+      a::before,
+      a::after {
+        content: "";
+        width: 0;
+        transition: width 1s;
+        position: absolute;
+        height: 2px;
+      }
+
+      a::before {
+        right: 0;
+        top: 0;
+        /* background-color: crimson; */
+        background-image: linear-gradient(to left, coral, brown);
+      }
+      a::after {
+        left: 0;
+        bottom: 0;
+        /* background-color: crimson; */
+        background-image: linear-gradient(to right, coral, brown);
+      }
+      a:hover::after {
+        content: "";
+        width: 100%;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Lorem!</a></li>
+        <li><a href="#">Aperiam!</a></li>
+        <li><a href="#">Sunt!</a></li>
+        <li><a href="#">Labnfjnrsi!</a></li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe
+        impedit ea ipsa a, fugit labore suscipit quidem iste eius, soluta
+        facilis quas magnam doloribus quia iure eaque praesentium neque.
+      </p>
+    </nav>
+  </body>
+</html>
