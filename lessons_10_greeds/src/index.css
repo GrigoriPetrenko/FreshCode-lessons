@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.outerBlock {
+  border: 5px solid blue;
+  height: 700px;
+}
+.innerBlock {
+  border: 5px solid red;
+  padding: 10px;
+  width: 80px;
+  height: 50px;
+}
+.gridContainer {
+  display: grid;
+  /* grid-template-columns: 100px 100px 100px 200px;
+  grid-template-rows: 100px 100px; */
+  /* grid-template: 100px 100px / 100px 100px 100px 200px; */
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 200px);
+  justify-content: space-between;
+  align-content: space-between;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.area:first-child {
+  justify-self: end;
+  justify-self: start;
+}

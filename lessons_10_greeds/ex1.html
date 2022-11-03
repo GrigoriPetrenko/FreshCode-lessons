@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .gridContainer {
+        display: grid;
+      }
+
+      .gridContainer > * {
+        border: 2px solid red;
+      }
+
+      header,
+      footer {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+      header {
+        height: 200px;
+      }
+      nav {
+        width: 250px;
+      }
+      main {
+        grid-template-columns: 250px auto 200px;
+      }
+
+      aside {
+        width: 200px;
+      }
+
+      footer {
+        height: 150px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .gridContainer > * {
+          grid-column-start: 1;
+          grid-column-end: 4;
+          width: 100%;
+        }
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body class="gridContainer">
+    <header><p>Header</p></header>
+    <nav><p>Nav</p></nav>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        laboriosam nulla illo iste eum molestias atque nisi recusandae dolores
+        incidunt, enim quas. Quae, distinctio obcaecati! Et illo voluptate
+        laudantium veritatis?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        laboriosam nulla illo iste eum molestias atque nisi recusandae dolores
+        incidunt, enim quas. Quae, distinctio obcaecati! Et illo voluptate
+        laudantium veritatis?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        laboriosam nulla illo iste eum molestias atque nisi recusandae dolores
+        incidunt, enim quas. Quae, distinctio obcaecati! Et illo voluptate
+        laudantium veritatis?
+      </p>
+    </main>
+    <aside><p>Aside</p></aside>
+    <footer><p>Footer</p></footer>
+  </body>
+</html>

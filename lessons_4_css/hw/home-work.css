@@ -1,0 +1,128 @@
+.bg-image {
+  position: absolute;
+  background: dimgray
+    url(https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&cs=tinysrgb&w=600&lazy=load);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.4;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: aliceblue;
+  font-size: 1.1em;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+header {
+  min-width: 450px;
+  position: relative;
+}
+#h1_start {
+  padding-top: 100px;
+  margin: 0;
+}
+
+h2,
+h3,
+p {
+  padding: 1em 0;
+  margin: 0;
+}
+.button {
+  display: inline-block;
+  background: #333;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 2em;
+}
+.main {
+  display: block;
+}
+#section-a {
+  display: block;
+  background-color: #fff;
+  color: #333;
+  padding-bottom: 2em;
+}
+#section-b {
+  display: block;
+  background-color: #333;
+  color: #333;
+  padding: 2em 1em 1em;
+}
+#section-c {
+  display: block;
+  background-color: #fff;
+  color: #333;
+  padding-bottom: 2em;
+}
+#section-d {
+  display: block;
+  background-color: #fff;
+}
+.column-a {
+  padding: 0 2em;
+  columns: 2;
+}
+.div-b {
+  display: inline-block;
+  background-color: #fff;
+  width: 20%;
+  margin-right: 20%;
+}
+#div-d1 {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: rgb(44, 140, 230);
+  padding: 2em;
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+#div-d2 {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 2em;
+  width: 50%;
+  height: 300px;
+}
+img {
+  display: block;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+}
+.content-b {
+  padding: 1.5em;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#main-footer {
+  padding: 2em;
+  background-color: black;
+}
+#main-footer a {
+  color: #2690d4;
+}
+#div-footer1 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+#div-footer2 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+}
