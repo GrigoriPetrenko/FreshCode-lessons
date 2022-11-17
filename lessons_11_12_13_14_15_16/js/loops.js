@@ -36,8 +36,20 @@
 //   console.log("i :>> ", i);
 // }
 
-let s = 1;
-for (let i = 1; i <= 15; i += 2) {
-  s *= i;
-  console.log("s :>> ", s);
-}
+// let s = 1;
+// for (let i = 1; i <= 15; i += 2) {
+//   s *= i;
+//   console.log("s :>> ", s);
+// }
+
+// let userNumber = null;
+// do {
+//   userNumber = Number(prompt("Input number "));
+// } while (!Number.isFinite(userNumber));
+// console.log("userNumber :>> ", userNumber);
+
+let userAnswer = null;
+do {
+  userAnswer = Number(prompt("Input answer 2+2*2 "));
+} while (userAnswer != 6);
+console.log("Answer correct");
